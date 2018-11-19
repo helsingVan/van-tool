@@ -69,4 +69,4 @@ log('---');
 var obj3 = { name: 'feifei', age: 11 };
 var descriptor = Object.getOwnPropertyDescriptor(obj3, 'name');
 log(descriptor);
-log('test');
+
