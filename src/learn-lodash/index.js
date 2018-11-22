@@ -13,3 +13,4 @@ addScript(arrayPath + 'drop.js');
 addScript(arrayPath + 'dropRight.js');
 addScript(arrayPath + 'dropWhile.js');
 addScript(arrayPath + 'findIndex.js');
+addScript(arrayPath + 'flatten.js');

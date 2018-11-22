@@ -85,20 +85,20 @@ function findIndexVan (array, predicate, fromIndex) {
     return resIndex;
 }
 
-var users = [
-    { 'user': 'barney',  'active': false },
-    { 'user': 'fred',    'active': false },
-    { 'user': 'pebbles', 'active': true },
-    { 'user': 'pebbles', 'active': true },
-];
+// var users = [
+//     { 'user': 'barney',  'active': false },
+//     { 'user': 'fred',    'active': false },
+//     { 'user': 'pebbles', 'active': true },
+//     { 'user': 'pebbles', 'active': true },
+// ];
 
-var resIndex = findIndexVan(users, (item) => {
-    return item['user'] === 'pebbles';
-}, 0);
+// var resIndex = findIndexVan(users, (item) => {
+//     return item['user'] === 'pebbles';
+// }, 0);
 
-var resIndex2 = findIndexVan(users, { 'user': 'pebbles', 'active': true}, 3);
+// var resIndex2 = findIndexVan(users, { 'user': 'pebbles', 'active': true}, 3);
 
-var resIndex3 = findIndexVan(users, ['user', 'pebbles'], 1);
+// var resIndex3 = findIndexVan(users, ['user', 'pebbles'], 1);
 
-var resIndex4 = findIndexVan(users, 'user', 0);
-console.log(resIndex4);
+// var resIndex4 = findIndexVan(users, 'user', 0);
+// console.log(resIndex4);
