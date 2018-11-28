@@ -29,7 +29,7 @@ function flattenVan(array, result) {
     return result;
 }
 
-var list = [
-    1, 2, [3, [4], 5], 6
-];
+// var list = [
+//     1, 2, [3, [4], 5], 6
+// ];
 

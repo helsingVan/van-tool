@@ -14,3 +14,7 @@ addScript(arrayPath + 'dropRight.js');
 addScript(arrayPath + 'dropWhile.js');
 addScript(arrayPath + 'findIndex.js');
 addScript(arrayPath + 'flatten.js');
+addScript(arrayPath + 'fromPairs.js');
+addScript(arrayPath + 'join.js');
+addScript(arrayPath + 'remove.js');
+addScript(arrayPath + 'uniq.js');
